@@ -10,9 +10,8 @@ URL = "https://random-stuff-api.p.rapidapi.com/ai"
 
 @bot.event
 async def on_ready():
-    await bot.change_presence(status = discord.Status.do_not_disturb,activity= discord.Game('Counter'))
 	
-    print('Logged on as Oranger')
+    print('Successfully Logged')
 @bot.event 
 async def on_message(message): 
 	if message.author.bot: 
