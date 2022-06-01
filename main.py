@@ -10,8 +10,8 @@ URL = "https://random-stuff-api.p.rapidapi.com/ai"
 
 @bot.event
 async def on_ready():
-	
     print('Successfully Logged')
+
 @bot.event 
 async def on_message(message): 
 	if message.author.bot: 
