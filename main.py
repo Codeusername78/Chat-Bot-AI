@@ -18,12 +18,15 @@ async def on_message(message):
 		return
 	if message.channel.id != "Your Channel Id": 
 		return
-	
-	datavar = {'msg':message.content}
-	async with aiohttp.ClientSession(headers = headervar) as session: 
-		async with session.get(url=URL, params = datavar) as reply: 
-			output = await reply.json() 
-			msg = output["AIResponse"] 
-			await message.reply(msg) 
+	try: 
+		datavar = {'msg':message.content}
+		async with aiohttp.ClientSession(headers = headervar) as session: 
+			async with session.get(url=URL, params = datavar) as reply: 
+				output = await reply.json() 
+				msg = output["AIResponse"]  
+				await message.reply(msg) 
+	except: #If it fails, Then do this
+		await message.reply("An error has occured.") 
+
 	
 bot.run("Your Bot Token")
