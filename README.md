@@ -12,6 +12,15 @@ First Step-:
 4) Scroll Down and enable all privileged gateway intents.
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/76993080/171373262-188510a2-30c3-4af6-89b9-0422fb1b6c7d.png">
 5) Now go to OAuth2 < URL Generator, In Scopes select bot
+6) After selecting bot, you should be able to add in in your server.
+
+***Running bot on VS Code***
+
+Copy the code provided, and paste it in your file.
+install discord.py using ``` pip install discord.py ``` and aiohttps by ``` pip install aiohttps```
+
+
+
 
 
 
