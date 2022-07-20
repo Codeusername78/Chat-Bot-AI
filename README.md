@@ -1,5 +1,5 @@
 # Chat-Bot-AI-Own-
-Welcome to this guide! Thanks to Mr. @cannonballchris for providing base code.
+Welcome to this guide!
 
 First Step-:
 
