@@ -1,4 +1,4 @@
-# Chat-Bot-AI-Own-
+# Chat-Bot-AI
 Welcome to this guide and follow the instructions to prepare a working Smart AI Discord bot!
 
 First Step-:
